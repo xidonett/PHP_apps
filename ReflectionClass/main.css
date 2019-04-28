@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Cutive+Mono");
+* {
+  font-family: "Ubuntu"; }
+
+body {
+  background-color: beige; }
+
+form#class-form {
+  display: flex;
+  justify-content: center; }
+
+button[type='submit'] {
+  font-size: 1.2em; }
+
+input[type='text'] {
+  font-size: 1.2em;
+  padding: 5px; }
+
+.class-parametres {
+  color: darkred; }
+
+div#class-reflection-info,
+div#class-error {
+  font-size: calc(.5em + .4em);
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3em;
+  justify-content: center; }
+
+ul {
+  list-style-type: none; }
+
+li,
+user {
+  font-family: "Cutive Mono";
+  font-weight: bold;
+  color: darkred; }
+
+li.method-list::before {
+  content: url("https://cdn0.iconfinder.com/data/icons/glyphpack/60/function-32.png"); }
+
+button[name='info[execute]'] {
+  font-size: 1.6em;
+  margin-left: 0.3em; }
+
+li.variable-list::before {
+  content: url("https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/square-16.png");
+  margin-right: 10px; }
+
+/*# sourceMappingURL=main.css.map */
