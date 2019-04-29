@@ -3,7 +3,6 @@
 require_once('includes/Fruits.php');
 require_once('includes/ProgrammingLanguages.php');
 require_once('includes/Cars.php');
-require_once('includes/rb.php');
 
 ?>
 
